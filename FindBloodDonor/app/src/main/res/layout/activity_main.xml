@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/progressBar"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:src="@drawable/ic_blood2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/img"
+        android:layout_margin="10dp"
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/img"
+        android:id="@+id/email"
+        android:hint="Email"
+        android:textSize="19sp"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        android:id="@+id/pass"
+        android:hint="Password"
+        android:textSize="19sp"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/pass"
+        android:id="@+id/btnSingin"
+        android:hint="Sign In"
+        android:textSize="19sp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not Registered Yet?"
+        app:layout_constraintTop_toBottomOf="@+id/btnSingin"
+        app:layout_constraintLeft_toLeftOf="@+id/btnSingin"
+        android:layout_margin="10dp"
+        android:id="@+id/regQuery"
+        android:textColor="@color/colorPrimary"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/regQuery"
+        android:id="@+id/btnReg"
+        android:hint="Register"
+        android:textSize="19sp"
+        android:layout_margin="10dp"/>
+
+
+
+</android.support.constraint.ConstraintLayout>

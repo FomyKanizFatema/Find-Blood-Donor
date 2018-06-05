@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Find Blood Donor</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="blood_group">
+        <item>A+</item>
+        <item>AB+</item>
+        <item>B+</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>AB-</item>
+        <item>B-</item>
+        <item>O-</item>
+    </string-array>
+
+    <string-array name="age_group">
+        <item>All</item>
+        <item>18-30</item>
+        <item>31-40</item>
+        <item>41-50</item>
+        <item>51-60</item>
+    </string-array>
+    <string-array name="location">
+        <item>All</item>
+        <item>Mirpur</item>
+        <item>Uttara</item>
+        <item>Badda</item>
+        <item>Dhanmondi</item>
+    </string-array>
+
+</resources>

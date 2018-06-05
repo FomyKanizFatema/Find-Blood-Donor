@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "197912441586",
+    "firebase_url": "https://findblooddonor-ad777.firebaseio.com",
+    "project_id": "findblooddonor-ad777",
+    "storage_bucket": "findblooddonor-ad777.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197912441586:android:e02eb44cb06f2b53",
+        "android_client_info": {
+          "package_name": "com.aiub.kfomy.findblooddonor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197912441586-onpv9c3megub1d4fi3tpqc13kbjs9le6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aiub.kfomy.findblooddonor",
+            "certificate_hash": "1833f389e94723019f4bece9dd8803e62a961e5b"
+          }
+        },
+        {
+          "client_id": "197912441586-4m2br2oo24m2i5p2d7iug7bugl06egfk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "197912441586-4m2br2oo24m2i5p2d7iug7bugl06egfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBU6aBAheRhCimUOb7ZTgTA86FdWEo1eao"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197912441586-4m2br2oo24m2i5p2d7iug7bugl06egfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
